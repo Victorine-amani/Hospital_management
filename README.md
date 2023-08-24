@@ -14,9 +14,33 @@ Appointment Scheduling: Efficiently schedule and manage appointments for both pa
 Doctor and Staff Profiles: Maintain profiles for doctors and staff members, including their specialization and contact information.
 
 Reports and Analytics: Generate insightful reports and analytics for administrative purposes and decision-making.
+INSTALLATION 
+Follow these steps to set up the Hospital Management App on your local machine:
+
+CLONE THE REPOSITORY 
+git clone https://github.com/your-username/hospital-management-app.git
+cd hospital-management-app
+
+CREATE A VIRTUAL ENVIRONMENT 
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+
+INSTALL DEPENDENCIES 
+pip install -r requirements.txt
+
+SET-UP THE DATABASE
+python manage.py makemigrations
+python manage.py migrate
+
+CREATE A SUPER USER
+python manage.py createsuperuser
+
+RUN THE DEVELOPMENT SERVER 
+python manage.py runserver
+Access the app in your browser at http://localhost:8000.
 
 
-Access the App: Open a web browser and go to http://localhost:3000 to access the app.
+
 
 Technologies Used
 Frontend: HTML, CSS, Python (Django)
