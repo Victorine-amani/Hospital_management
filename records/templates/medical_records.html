@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body{
+                 align-items: center;
+             }
+             tabel{
+                 table-layout: fixed;
+                 width: 100%;
+                 border-collapse: collapse;
+                 
+                 
+             }
+             thead th:nth-child(1){
+                 width:30%
+             }
+             thead th:nth-child(2){
+                 width:20%
+             }
+             thead th:nth-child(3){
+                 width:15%
+             }
+             thead th:nth-child(4){
+                 width:35%
+             }
+             th,
+             td{
+                 padding: 20px;
+             }thead th,
+             tfoot th{
+                 font-family: cursive;
+             }
+             th{
+                 letter-spacing: 2px;
+             
+             }
+             td{
+                 letter-spacing: 1px;
+             }
+             tbody td{
+                 text-align: center;
+             }
+             tfoot th{
+                 text-align: right;
+             }
+     
+     
+    
+           
+         </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Patient</th>
+            <th>Doctor</th>
+            <th>Date</th>
+            <th>Particulars</th>
+            
+           
+
+        </tr>
+        {% for record in medical_record %}
+        
+        <tr>
+            <td>{{record.patient.first_name}}</td>
+            <td>{{record.doctor.first_name}}</td>
+            <td>{{record.date}}</td>
+            <td>{{record.particulars}}</td>
+           
+            
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
