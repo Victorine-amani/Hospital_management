@@ -40,26 +40,12 @@ RUN THE DEVELOPMENT SERVER
 python manage.py runserver
 Access the app in your browser at http://localhost:8000.
 
-
-
-
 Technologies Used
 Frontend: HTML, CSS, Python (Django)
 Backend: Django
 Database: MySQL
 Authentication: 
 UI Framework: 
-Contributing
-We welcome contributions to the Hospital Management App! To contribute:
 
-Fork the repository.
-
-Create a new branch: git checkout -b feature-new-feature.
-
-Make your changes and commit them: git commit -m "Add new feature"
-
-Push to the branch: git push origin feature-new-feature.
-
-Create a pull request detailing your changes.
 Contact
 If you have any questions or need assistance, please contact our development team at victorinenyagwala@gmail.com
