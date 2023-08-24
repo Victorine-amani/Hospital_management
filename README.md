@@ -7,13 +7,14 @@ Patient Management: Easily manage patient records, including personal informatio
 
 Appointment Scheduling: Efficiently schedule and manage appointments for both patients and medical staff.
 
-***Billing and Invoicing: Generate and manage bills and invoices for medical services provided to patients.*** YET TO BE IMPLEMENTED
+***Billing and Invoicing: Generate and manage bills and invoices for medical services provided to patients.*** IN PROGRESS 
 
-***Inventory Control: Keep track of medical supplies and equipment inventory, ensuring availability when needed.***YET TO BE IMPLEMENTED
+***Inventory Control: Keep track of medical supplies and equipment inventory, ensuring availability when needed.*** IN PROGRESS 
 
 Doctor and Staff Profiles: Maintain profiles for doctors and staff members, including their specialization and contact information.
 
-Reports and Analytics: Generate insightful reports and analytics for administrative purposes and decision-making.
+***Reports and Analytics: Generate insightful reports and analytics for administrative purposes and decision-making.*** IN PROGRESS
+
 INSTALLATION 
 Follow these steps to set up the Hospital Management App on your local machine:
 
