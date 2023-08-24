@@ -48,4 +48,4 @@ Authentication:
 UI Framework: 
 
 Contact
-If you have any questions or need assistance, please contact our development team at victorinenyagwala@gmail.com
+If you have any questions or need assistance, please contact me at victorinenyagwala@gmail.com
